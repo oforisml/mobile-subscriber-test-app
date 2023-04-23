@@ -1,0 +1,137 @@
+/*https://www.shutterstock.com/blog/color-palettes-for-websites*/
+body {
+    background-color:#f2ebe5;
+}
+
+.btn-danger{
+    background-color:#2b262d ;
+}
+
+.btn-primary{
+    background-color: #9F496e;
+}
+.btn-info{
+    background-color:#647295 ;
+    color:white;
+
+}
+
+#container mt-3 h1{
+    alignment: center;
+}
+
+.btn-sm{
+    background-color:#647295;
+    alignment: center;
+}
+
+table{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+@media(min-width: 768px){
+    .col-md-5{
+        flex: 0 0 auto;
+        width: 41.666666667%;
+    }
+}
+
+.dataTables_info{
+    padding-top: .85em;
+}
+
+.col-md-6{
+    min-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2b262d ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#647295;
+}
+
+a{
+    color:black;
+}
+
+a:link {
+    text-decoration: none;
+}
+.pagination{
+    display:inline-block;
+    padding: 8px 16px;
+    background-color:#f2ebe5 ;
+    color:black;
+}
+
+.highlight{
+    background-color:#9F496e;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_arrow{
+    top: 50%;
+    content: "▼";
+    color: #b3b3b3;
+    padding-left: 16px;
+}
+
+.top_arrow{
+    bottom: 50%;
+    content: "▲";
+    color: #b3b3b3;
+    padding-left: 12px;
+}
+
+.sort-color{
+    color: #b3b3b3;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.th-sort{
+    display:inline;
+    flex-flow:row;
+}
+
+i{
+    text-align: right;
+
+}
